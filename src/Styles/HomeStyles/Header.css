@@ -1,0 +1,30 @@
+.menubar {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  background-color: white;
+  align-items: center;
+}
+.menu_icons {
+  display: flex;
+  align-items: center;
+}
+.insta_img {
+  height: 30px;
+}
+.icon,
+.profile_image {
+  margin-left: 20px;
+}
+.profile_image {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100vw;
+}

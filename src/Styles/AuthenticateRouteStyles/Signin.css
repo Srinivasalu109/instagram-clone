@@ -1,0 +1,17 @@
+body {
+  background-color: #d7dbd8;
+}
+.login_form {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.signup {
+  color: blue;
+  margin-left: 4px;
+}
+p {
+  text-align: center;
+}

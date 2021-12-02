@@ -1,0 +1,23 @@
+body {
+  background-color: #ebf0ec;
+}
+.section-2 {
+  display: flex;
+  padding: 40px;
+  padding-left: 100px;
+}
+.follwers_post {
+  width: 60%;
+}
+.suggestions {
+  width: 40%;
+}
+@media (max-width: 1000px) {
+  .follwers_post {
+    width: 100%;
+    padding: 0px;
+  }
+  .suggestions {
+    display: none;
+  }
+}
